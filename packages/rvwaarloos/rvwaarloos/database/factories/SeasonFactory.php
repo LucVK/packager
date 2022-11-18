@@ -2,8 +2,8 @@
 
 namespace Rvwaarloos\Rvwaarloos\Database\Factories;
 
+use App\Models\Rv\Season;
 use Illuminate\Database\Eloquent\Factories\Factory;
-use Rvwaarloos\Rvwaarloos\Models\Season;
 
 /**
  * @extends \Illuminate\Database\Eloquent\Factories\Factory<\App\Models\Rv\Season>

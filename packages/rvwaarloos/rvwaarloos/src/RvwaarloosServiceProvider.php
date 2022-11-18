@@ -66,6 +66,11 @@ class RvwaarloosServiceProvider extends ServiceProvider
             __DIR__.'/../database/seeders' => database_path('seeders'),
         ], 'rvwaarloos.seeders');
 
+        // Publishing models.
+        $this->publishes([
+            __DIR__.'/../models' => app_path('Models/Rv'),
+        ], 'rvwaarloos.models');
+
         // Publishing the views.
         /*$this->publishes([
             __DIR__.'/../resources/views' => base_path('resources/views/vendor/rvwaarloos'),

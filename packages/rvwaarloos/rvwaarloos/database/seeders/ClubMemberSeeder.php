@@ -4,7 +4,7 @@ namespace Rvwaarloos\Rvwaarloos\Database\Seeders;
 
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
-use Rvwaarloos\Rvwaarloos\Models\Profile;
+use App\Models\Rv\Profile;
 
 class ClubMemberSeeder extends Seeder
 {

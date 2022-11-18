@@ -1,12 +1,12 @@
 <?php
 
-namespace Rvwaarloos\Rvwaarloos\Models;
+namespace App\Models\Rv;
 
 // use App\Models\Scopes\Rv\DepartmentScope;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Rvwaarloos\Rvwaarloos\Database\Factories\DepartmentFactory;
-use Rvwaarloos\Rvwaarloos\Models\Traits\SelfReferenceTrait;
+use App\Models\Rv\Traits\SelfReferenceTrait;
 
 class Department extends Model
 {

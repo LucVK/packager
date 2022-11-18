@@ -1,6 +1,6 @@
 <?php
 
-namespace Rvwaarloos\Rvwaarloos\Models;
+namespace App\Models\Rv;
 
 use App\Models\User;
 use Illuminate\Database\Eloquent\Factories\HasFactory;

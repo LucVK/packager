@@ -1,6 +1,6 @@
 <?php
 
-namespace Rvwaarloos\Rvwaarloos\Models;
+namespace App\Models\Rv;
 
 enum ClubMembershipStatus:int {
     case Pending = 0;

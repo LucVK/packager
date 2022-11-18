@@ -2,9 +2,9 @@
 
 namespace Rvwaarloos\Rvwaarloos\Database\Factories;
 
+use App\Models\Rv\ClubMember;
+use App\Models\Rv\Profile;
 use Illuminate\Database\Eloquent\Factories\Factory;
-use Rvwaarloos\Rvwaarloos\Models\ClubMember;
-use Rvwaarloos\Rvwaarloos\Models\Profile;
 
 /**
  * @extends \Illuminate\Database\Eloquent\Factories\Factory<\App\Models\Rv\Profile>

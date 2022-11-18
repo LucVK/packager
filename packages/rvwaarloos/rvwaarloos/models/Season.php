@@ -1,6 +1,6 @@
 <?php
 
-namespace Rvwaarloos\Rvwaarloos\Models;
+namespace App\Models\Rv;
 
 use DateTimeInterface;
 use Illuminate\Database\Eloquent\Factories\HasFactory;

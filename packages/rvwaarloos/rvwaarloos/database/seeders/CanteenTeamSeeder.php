@@ -5,8 +5,7 @@ namespace Rvwaarloos\Rvwaarloos\Database\Seeders;
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
-use Illuminate\Support\Str;
-use Rvwaarloos\Rvwaarloos\Models\Department;
+use App\Models\Rv\Department;
 
 class CanteenTeamSeeder extends Seeder
 {

@@ -2,11 +2,11 @@
 
 namespace Rvwaarloos\Rvwaarloos\Database\Seeders;
 
+use App\Models\Rv\Department;
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Str;
-use Rvwaarloos\Rvwaarloos\Models\Department;
 
 class DepartmentSeeder extends Seeder
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Rvwaarloos\Rvwaarloos\Models\Traits;
+namespace App\Models\Rv\Traits;
 
 trait UsernameTrait
 {

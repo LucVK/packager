@@ -2,15 +2,15 @@
 
 namespace Rvwaarloos\Rvwaarloos\Database\Seeders;
 
+use App\Models\Rv\CanteenTeam;
+use App\Models\Rv\Department;
+use App\Models\Rv\Season;
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 use DateInterval;
 use DatePeriod;
 use DateTime;
 use Illuminate\Support\Facades\DB;
-use Rvwaarloos\Rvwaarloos\Models\CanteenTeam;
-use Rvwaarloos\Rvwaarloos\Models\Department;
-use Rvwaarloos\Rvwaarloos\Models\Season;
 
 class CanteenPermanenceSeeder extends Seeder
 {

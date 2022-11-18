@@ -2,8 +2,8 @@
 
 namespace Rvwaarloos\Rvwaarloos\Database\Factories;
 
+use App\Models\Rv\Department;
 use Illuminate\Database\Eloquent\Factories\Factory;
-use Rvwaarloos\Rvwaarloos\Models\Department;
 
 /**
  * @extends \Illuminate\Database\Eloquent\Factories\Factory<\App\Models\Rv\Department>
