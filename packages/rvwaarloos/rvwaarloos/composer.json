@@ -1,0 +1,44 @@
+{
+    "name": "rvwaarloos/rvwaarloos",
+    "description": "Base package for RV Site",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Luc Van Keer",
+            "email": "luc.vankeer@telenet.be",
+            "homepage": "http://author.com"
+        }
+    ],
+    "homepage": "https://github.com/rvwaarloos/rvwaarloos",
+    "keywords": ["Laravel", "Rvwaarloos"],
+    "require": {
+        "illuminate/support": "~9"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~9.0",
+        "orchestra/testbench": "~7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Rvwaarloos\\Rvwaarloos\\": "src/",
+            "Rvwaarloos\\Rvwaarloos\\Database\\Factories\\": "database/factories/",
+            "Rvwaarloos\\Rvwaarloos\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Rvwaarloos\\Rvwaarloos\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Rvwaarloos\\Rvwaarloos\\RvwaarloosServiceProvider"
+            ],
+            "aliases": {
+                "Rvwaarloos": "Rvwaarloos\\Rvwaarloos\\Facades\\Rvwaarloos"
+            }
+        }
+    },
+    "version": "1.0.0"
+}

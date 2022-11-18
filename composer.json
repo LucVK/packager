@@ -9,7 +9,8 @@
         "guzzlehttp/guzzle": "^7.2",
         "laravel/framework": "^9.19",
         "laravel/sanctum": "^3.0",
-        "laravel/tinker": "^2.7"
+        "laravel/tinker": "^2.7",
+        "rvwaarloos/rvwaarloos": "@dev"
     },
     "require-dev": {
         "fakerphp/faker": "^1.9.1",
@@ -62,5 +63,14 @@
         }
     },
     "minimum-stability": "dev",
-    "prefer-stable": true
+    "prefer-stable": true,
+    "repositories": {
+        "rvwaarloos/rvwaarloos": {
+            "type": "path",
+            "url": "D:\\proto\\packager\\packages/rvwaarloos/rvwaarloos",
+            "options": {
+                "symlink": true
+            }
+        }
+    }
 }
